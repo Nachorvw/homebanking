@@ -153,9 +153,9 @@
                         <ul aria-expanded="false">
 							<li><a href="{% static 'index.html' %}">Dashboard Light</a></li>
 							
-							<li><a href="{% static 'my-wallets.html' %}">Wallet</a></li>
-							<li><a href="{% static 'coin-details.html' %}">Coin Details</a></li>
-							<li><a href="{% static 'portfolio.html' %}">Portfolio</a></li>
+							<li><a href="{% url 'wallets' %}">Wallet</a></li>
+							<li><a href="{% url 'details' %}">Coin Details</a></li>
+							<li><a href="{% url 'portfolio' %}">Portfolio</a></li>
 						</ul>
                     </li>
                     <li><a class="ai-icon" href="{% url 'list' %}" aria-expanded="false">
